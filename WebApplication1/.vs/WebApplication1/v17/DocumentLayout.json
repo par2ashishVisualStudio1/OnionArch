@@ -1,0 +1,805 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D8B00C8-F01A-4CC4-90EA-13EC4985CAA9}|Repository\\Repository.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\repository\\extensions\\repositoryemployeeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D8B00C8-F01A-4CC4-90EA-13EC4985CAA9}|Repository\\Repository.csproj|solutionrelative:repository\\extensions\\repositoryemployeeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213B769-9FAD-4FD5-9369-0930C2D0971B}|Presentation\\Presentation.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\presentation\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213B769-9FAD-4FD5-9369-0930C2D0971B}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D8B00C8-F01A-4CC4-90EA-13EC4985CAA9}|Repository\\Repository.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\repository\\extensions\\utility\\orderquerybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D8B00C8-F01A-4CC4-90EA-13EC4985CAA9}|Repository\\Repository.csproj|solutionrelative:repository\\extensions\\utility\\orderquerybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D8B00C8-F01A-4CC4-90EA-13EC4985CAA9}|Repository\\Repository.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D8B00C8-F01A-4CC4-90EA-13EC4985CAA9}|Repository\\Repository.csproj|solutionrelative:repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DD3DA3-7577-4464-A2AE-EA6EE3D11E5A}|Service\\Service.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DD3DA3-7577-4464-A2AE-EA6EE3D11E5A}|Service\\Service.csproj|solutionrelative:service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\companyemployees\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213B769-9FAD-4FD5-9369-0930C2D0971B}|Presentation\\Presentation.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\presentation\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213B769-9FAD-4FD5-9369-0930C2D0971B}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308DBF91-964E-496E-81DA-5E35CFDDDF81}|Entities\\Entities.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\entities\\linkmodels\\link.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308DBF91-964E-496E-81DA-5E35CFDDDF81}|Entities\\Entities.csproj|solutionrelative:entities\\linkmodels\\link.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D8B00C8-F01A-4CC4-90EA-13EC4985CAA9}|Repository\\Repository.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\repository\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D8B00C8-F01A-4CC4-90EA-13EC4985CAA9}|Repository\\Repository.csproj|solutionrelative:repository\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE35E47-33A4-4B83-BDDD-698AD640EB2F}|Shared\\Shared.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\shared\\requestfeatures\\requestparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE35E47-33A4-4B83-BDDD-698AD640EB2F}|Shared\\Shared.csproj|solutionrelative:shared\\requestfeatures\\requestparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308DBF91-964E-496E-81DA-5E35CFDDDF81}|Entities\\Entities.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\entities\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308DBF91-964E-496E-81DA-5E35CFDDDF81}|Entities\\Entities.csproj|solutionrelative:entities\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\companyemployees\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5416D93-59F8-493A-9B6C-54035FB1D5A8}|Service.Contracts\\Service.Contracts.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\service.contracts\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5416D93-59F8-493A-9B6C-54035FB1D5A8}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627A3065-25C1-49B2-B5C2-BAC3745D71F8}|Contracts\\Contracts.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\contracts\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627A3065-25C1-49B2-B5C2-BAC3745D71F8}|Contracts\\Contracts.csproj|solutionrelative:contracts\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D8B00C8-F01A-4CC4-90EA-13EC4985CAA9}|Repository\\Repository.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\repository\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D8B00C8-F01A-4CC4-90EA-13EC4985CAA9}|Repository\\Repository.csproj|solutionrelative:repository\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE35E47-33A4-4B83-BDDD-698AD640EB2F}|Shared\\Shared.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\shared\\requestfeatures\\metadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE35E47-33A4-4B83-BDDD-698AD640EB2F}|Shared\\Shared.csproj|solutionrelative:shared\\requestfeatures\\metadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE35E47-33A4-4B83-BDDD-698AD640EB2F}|Shared\\Shared.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\shared\\datatransferobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE35E47-33A4-4B83-BDDD-698AD640EB2F}|Shared\\Shared.csproj|solutionrelative:shared\\datatransferobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\companyemployees\\migrations\\20241221091709_initialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\migrations\\20241221091709_initialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213B769-9FAD-4FD5-9369-0930C2D0971B}|Presentation\\Presentation.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\presentation\\actionfilters\\validationfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213B769-9FAD-4FD5-9369-0930C2D0971B}|Presentation\\Presentation.csproj|solutionrelative:presentation\\actionfilters\\validationfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\companyemployees\\migrations\\20241221091406_databasecreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\migrations\\20241221091406_databasecreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\companyemployees\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DD3DA3-7577-4464-A2AE-EA6EE3D11E5A}|Service\\Service.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\service\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DD3DA3-7577-4464-A2AE-EA6EE3D11E5A}|Service\\Service.csproj|solutionrelative:service\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627A3065-25C1-49B2-B5C2-BAC3745D71F8}|Contracts\\Contracts.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\contracts\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627A3065-25C1-49B2-B5C2-BAC3745D71F8}|Contracts\\Contracts.csproj|solutionrelative:contracts\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5416D93-59F8-493A-9B6C-54035FB1D5A8}|Service.Contracts\\Service.Contracts.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\service.contracts\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5416D93-59F8-493A-9B6C-54035FB1D5A8}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308DBF91-964E-496E-81DA-5E35CFDDDF81}|Entities\\Entities.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\entities\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308DBF91-964E-496E-81DA-5E35CFDDDF81}|Entities\\Entities.csproj|solutionrelative:entities\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213B769-9FAD-4FD5-9369-0930C2D0971B}|Presentation\\Presentation.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\presentation\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213B769-9FAD-4FD5-9369-0930C2D0971B}|Presentation\\Presentation.csproj|solutionrelative:presentation\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213B769-9FAD-4FD5-9369-0930C2D0971B}|Presentation\\Presentation.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\presentation\\modelbinders\\arraymodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213B769-9FAD-4FD5-9369-0930C2D0971B}|Presentation\\Presentation.csproj|solutionrelative:presentation\\modelbinders\\arraymodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308DBF91-964E-496E-81DA-5E35CFDDDF81}|Entities\\Entities.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\entities\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308DBF91-964E-496E-81DA-5E35CFDDDF81}|Entities\\Entities.csproj|solutionrelative:entities\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308DBF91-964E-496E-81DA-5E35CFDDDF81}|Entities\\Entities.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\entities\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308DBF91-964E-496E-81DA-5E35CFDDDF81}|Entities\\Entities.csproj|solutionrelative:entities\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308DBF91-964E-496E-81DA-5E35CFDDDF81}|Entities\\Entities.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\entities\\exceptions\\employeenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308DBF91-964E-496E-81DA-5E35CFDDDF81}|Entities\\Entities.csproj|solutionrelative:entities\\exceptions\\employeenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308DBF91-964E-496E-81DA-5E35CFDDDF81}|Entities\\Entities.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\entities\\exceptions\\companynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308DBF91-964E-496E-81DA-5E35CFDDDF81}|Entities\\Entities.csproj|solutionrelative:entities\\exceptions\\companynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\companyemployees\\extensions\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\extensions\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308DBF91-964E-496E-81DA-5E35CFDDDF81}|Entities\\Entities.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\entities\\errormodel\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308DBF91-964E-496E-81DA-5E35CFDDDF81}|Entities\\Entities.csproj|solutionrelative:entities\\errormodel\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\companyemployees\\contextfactory\\repositorycontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\contextfactory\\repositorycontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D8B00C8-F01A-4CC4-90EA-13EC4985CAA9}|Repository\\Repository.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D8B00C8-F01A-4CC4-90EA-13EC4985CAA9}|Repository\\Repository.csproj|solutionrelative:repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627A3065-25C1-49B2-B5C2-BAC3745D71F8}|Contracts\\Contracts.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\contracts\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627A3065-25C1-49B2-B5C2-BAC3745D71F8}|Contracts\\Contracts.csproj|solutionrelative:contracts\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627A3065-25C1-49B2-B5C2-BAC3745D71F8}|Contracts\\Contracts.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\contracts\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627A3065-25C1-49B2-B5C2-BAC3745D71F8}|Contracts\\Contracts.csproj|solutionrelative:contracts\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\companyemployees\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\companyemployees\\migrations\\repositorycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\migrations\\repositorycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DD3DA3-7577-4464-A2AE-EA6EE3D11E5A}|Service\\Service.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\service\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DD3DA3-7577-4464-A2AE-EA6EE3D11E5A}|Service\\Service.csproj|solutionrelative:service\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\companyemployees\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\companyemployees\\companyemployees.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F54B7066-34DE-42CC-A2F6-88935650D8D8}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\companyemployees.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5416D93-59F8-493A-9B6C-54035FB1D5A8}|Service.Contracts\\Service.Contracts.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\service.contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5416D93-59F8-493A-9B6C-54035FB1D5A8}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D8B00C8-F01A-4CC4-90EA-13EC4985CAA9}|Repository\\Repository.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\repository\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D8B00C8-F01A-4CC4-90EA-13EC4985CAA9}|Repository\\Repository.csproj|solutionrelative:repository\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D8B00C8-F01A-4CC4-90EA-13EC4985CAA9}|Repository\\Repository.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\repository\\configuration\\employeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D8B00C8-F01A-4CC4-90EA-13EC4985CAA9}|Repository\\Repository.csproj|solutionrelative:repository\\configuration\\employeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D8B00C8-F01A-4CC4-90EA-13EC4985CAA9}|Repository\\Repository.csproj|d:\\ashish\\practices\\restapi\\onionarchitecture\\webapplication1\\repository\\configuration\\companyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D8B00C8-F01A-4CC4-90EA-13EC4985CAA9}|Repository\\Repository.csproj|solutionrelative:repository\\configuration\\companyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Link.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\LinkModels\\Link.cs",
+              "RelativeDocumentMoniker": "Entities\\LinkModels\\Link.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\LinkModels\\Link.cs",
+              "RelativeToolTip": "Entities\\LinkModels\\Link.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T17:57:47.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderQueryBuilder.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Repository\\Extensions\\Utility\\OrderQueryBuilder.cs",
+              "RelativeDocumentMoniker": "Repository\\Extensions\\Utility\\OrderQueryBuilder.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Repository\\Extensions\\Utility\\OrderQueryBuilder.cs",
+              "RelativeToolTip": "Repository\\Extensions\\Utility\\OrderQueryBuilder.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAywBkAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T17:45:44.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositoryEmployeeExtensions.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Repository\\Extensions\\RepositoryEmployeeExtensions.cs",
+              "RelativeDocumentMoniker": "Repository\\Extensions\\RepositoryEmployeeExtensions.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Repository\\Extensions\\RepositoryEmployeeExtensions.cs",
+              "RelativeToolTip": "Repository\\Extensions\\RepositoryEmployeeExtensions.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAMwBoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T17:30:39.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MetaData.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Shared\\RequestFeatures\\MetaData.cs",
+              "RelativeDocumentMoniker": "Shared\\RequestFeatures\\MetaData.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Shared\\RequestFeatures\\MetaData.cs",
+              "RelativeToolTip": "Shared\\RequestFeatures\\MetaData.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAIwB8AAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:56:31.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RequestParameters.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Shared\\RequestFeatures\\RequestParameters.cs",
+              "RelativeDocumentMoniker": "Shared\\RequestFeatures\\RequestParameters.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Shared\\RequestFeatures\\RequestParameters.cs",
+              "RelativeToolTip": "Shared\\RequestFeatures\\RequestParameters.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAjwB4AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:45:42.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ValidationFilterAttribute.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Presentation\\ActionFilters\\ValidationFilterAttribute.cs",
+              "RelativeDocumentMoniker": "Presentation\\ActionFilters\\ValidationFilterAttribute.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Presentation\\ActionFilters\\ValidationFilterAttribute.cs",
+              "RelativeToolTip": "Presentation\\ActionFilters\\ValidationFilterAttribute.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T13:18:33.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ArrayModelBinder.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Presentation\\ModelBinders\\ArrayModelBinder.cs",
+              "RelativeDocumentMoniker": "Presentation\\ModelBinders\\ArrayModelBinder.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Presentation\\ModelBinders\\ArrayModelBinder.cs",
+              "RelativeToolTip": "Presentation\\ModelBinders\\ArrayModelBinder.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwCIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T12:48:46.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BadRequestException.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Exceptions\\BadRequestException.cs",
+              "RelativeDocumentMoniker": "Entities\\Exceptions\\BadRequestException.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Exceptions\\BadRequestException.cs",
+              "RelativeToolTip": "Entities\\Exceptions\\BadRequestException.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAzwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T12:44:00.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DataTransferObjects.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Shared\\DataTransferObjects.cs",
+              "RelativeDocumentMoniker": "Shared\\DataTransferObjects.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Shared\\DataTransferObjects.cs",
+              "RelativeToolTip": "Shared\\DataTransferObjects.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowDIAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T12:22:58.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EmployeeNotFoundException.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Exceptions\\EmployeeNotFoundException.cs",
+              "RelativeDocumentMoniker": "Entities\\Exceptions\\EmployeeNotFoundException.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Exceptions\\EmployeeNotFoundException.cs",
+              "RelativeToolTip": "Entities\\Exceptions\\EmployeeNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T11:05:58.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Presentation\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Presentation\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAD4vzAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T11:01:48.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CompanyNotFoundException.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Exceptions\\CompanyNotFoundException.cs",
+              "RelativeDocumentMoniker": "Entities\\Exceptions\\CompanyNotFoundException.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Exceptions\\CompanyNotFoundException.cs",
+              "RelativeToolTip": "Entities\\Exceptions\\CompanyNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T10:58:08.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Entities\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Entities\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T10:57:21.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ExceptionMiddlewareExtensions.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\Extensions\\ExceptionMiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees\\Extensions\\ExceptionMiddlewareExtensions.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\Extensions\\ExceptionMiddlewareExtensions.cs",
+              "RelativeToolTip": "CompanyEmployees\\Extensions\\ExceptionMiddlewareExtensions.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAmwBwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T10:44:29.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ErrorDetails.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\ErrorModel\\ErrorDetails.cs",
+              "RelativeDocumentMoniker": "Entities\\ErrorModel\\ErrorDetails.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\ErrorModel\\ErrorDetails.cs",
+              "RelativeToolTip": "Entities\\ErrorModel\\ErrorDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T10:43:59.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees\\MappingProfile.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\MappingProfile.cs",
+              "RelativeToolTip": "CompanyEmployees\\MappingProfile.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T10:39:04.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CompanyEmployees\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CompanyEmployees\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-21T10:27:03.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CompanyEmployees",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\CompanyEmployees.csproj",
+              "RelativeDocumentMoniker": "CompanyEmployees\\CompanyEmployees.csproj",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\CompanyEmployees.csproj",
+              "RelativeToolTip": "CompanyEmployees\\CompanyEmployees.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-21T10:08:00.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Presentation\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\CompaniesController.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Presentation\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\CompaniesController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAABcAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:55:27.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AssemblyReference.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Presentation\\AssemblyReference.cs",
+              "RelativeDocumentMoniker": "Presentation\\AssemblyReference.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Presentation\\AssemblyReference.cs",
+              "RelativeToolTip": "Presentation\\AssemblyReference.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:51:27.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ServiceManager.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service\\ServiceManager.cs",
+              "RelativeDocumentMoniker": "Service\\ServiceManager.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service\\ServiceManager.cs",
+              "RelativeToolTip": "Service\\ServiceManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:30:48.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Service\\EmployeeService.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service\\EmployeeService.cs",
+              "RelativeToolTip": "Service\\EmployeeService.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAuwCgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:30:17.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service\\CompanyService.cs",
+              "RelativeDocumentMoniker": "Service\\CompanyService.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service\\CompanyService.cs",
+              "RelativeToolTip": "Service\\CompanyService.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAADwv3EAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:29:15.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IServiceManager.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service.Contracts\\IServiceManager.cs",
+              "RelativeDocumentMoniker": "Service.Contracts\\IServiceManager.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service.Contracts\\IServiceManager.cs",
+              "RelativeToolTip": "Service.Contracts\\IServiceManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:28:10.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service.Contracts\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "Service.Contracts\\IEmployeeService.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service.Contracts\\IEmployeeService.cs",
+              "RelativeToolTip": "Service.Contracts\\IEmployeeService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:27:44.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ICompanyService.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service.Contracts\\ICompanyService.cs",
+              "RelativeDocumentMoniker": "Service.Contracts\\ICompanyService.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service.Contracts\\ICompanyService.cs",
+              "RelativeToolTip": "Service.Contracts\\ICompanyService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:27:26.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "CompanyEmployees\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwBwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:25:49.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RepositoryManager.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Repository\\RepositoryManager.cs",
+              "RelativeDocumentMoniker": "Repository\\RepositoryManager.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Repository\\RepositoryManager.cs",
+              "RelativeToolTip": "Repository\\RepositoryManager.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAjwBcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:24:54.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IRepositoryManager.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Contracts\\IRepositoryManager.cs",
+              "RelativeDocumentMoniker": "Contracts\\IRepositoryManager.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Contracts\\IRepositoryManager.cs",
+              "RelativeToolTip": "Contracts\\IRepositoryManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:24:28.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Repository\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\EmployeeRepository.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Repository\\EmployeeRepository.cs",
+              "RelativeToolTip": "Repository\\EmployeeRepository.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAASwCkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:23:19.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CompanyRepository.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Repository\\CompanyRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CompanyRepository.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Repository\\CompanyRepository.cs",
+              "RelativeToolTip": "Repository\\CompanyRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:23:01.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Contracts\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Contracts\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Contracts\\IEmployeeRepository.cs",
+              "RelativeToolTip": "Contracts\\IEmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:22:29.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ICompanyRepository.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Contracts\\ICompanyRepository.cs",
+              "RelativeDocumentMoniker": "Contracts\\ICompanyRepository.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Contracts\\ICompanyRepository.cs",
+              "RelativeToolTip": "Contracts\\ICompanyRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:22:15.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Repository\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "Repository\\RepositoryBase.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Repository\\RepositoryBase.cs",
+              "RelativeToolTip": "Repository\\RepositoryBase.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwB4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:21:16.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IRepositoryBase.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Contracts\\IRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Contracts\\IRepositoryBase.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Contracts\\IRepositoryBase.cs",
+              "RelativeToolTip": "Contracts\\IRepositoryBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:19:25.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20241221091709_InitialData.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\Migrations\\20241221091709_InitialData.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees\\Migrations\\20241221091709_InitialData.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\Migrations\\20241221091709_InitialData.cs",
+              "RelativeToolTip": "CompanyEmployees\\Migrations\\20241221091709_InitialData.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAwB8AAAB6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:17:09.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "EmployeeConfiguration.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Repository\\Configuration\\EmployeeConfiguration.cs",
+              "RelativeDocumentMoniker": "Repository\\Configuration\\EmployeeConfiguration.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Repository\\Configuration\\EmployeeConfiguration.cs",
+              "RelativeToolTip": "Repository\\Configuration\\EmployeeConfiguration.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvysAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:16:24.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CompanyConfiguration.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Repository\\Configuration\\CompanyConfiguration.cs",
+              "RelativeDocumentMoniker": "Repository\\Configuration\\CompanyConfiguration.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Repository\\Configuration\\CompanyConfiguration.cs",
+              "RelativeToolTip": "Repository\\Configuration\\CompanyConfiguration.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwCAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:15:57.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RepositoryContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\Migrations\\RepositoryContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees\\Migrations\\RepositoryContextModelSnapshot.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\Migrations\\RepositoryContextModelSnapshot.cs",
+              "RelativeToolTip": "CompanyEmployees\\Migrations\\RepositoryContextModelSnapshot.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAABIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:14:35.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20241221091406_DatabaseCreation.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\Migrations\\20241221091406_DatabaseCreation.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees\\Migrations\\20241221091406_DatabaseCreation.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\Migrations\\20241221091406_DatabaseCreation.cs",
+              "RelativeToolTip": "CompanyEmployees\\Migrations\\20241221091406_DatabaseCreation.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:14:06.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\appsettings.json",
+              "RelativeDocumentMoniker": "CompanyEmployees\\appsettings.json",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\appsettings.json",
+              "RelativeToolTip": "CompanyEmployees\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAACBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-21T09:12:50.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\Program.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees\\Program.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\Program.cs",
+              "RelativeToolTip": "CompanyEmployees\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:04:32.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RepositoryContextFactory.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\ContextFactory\\RepositoryContextFactory.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees\\ContextFactory\\RepositoryContextFactory.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\CompanyEmployees\\ContextFactory\\RepositoryContextFactory.cs",
+              "RelativeToolTip": "CompanyEmployees\\ContextFactory\\RepositoryContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:02:03.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RepositoryContext.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Repository\\RepositoryContext.cs",
+              "RelativeDocumentMoniker": "Repository\\RepositoryContext.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Repository\\RepositoryContext.cs",
+              "RelativeToolTip": "Repository\\RepositoryContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAABYwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T08:48:47.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\Employee.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Models\\Employee.cs",
+              "RelativeToolTip": "Entities\\Models\\Employee.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T08:47:33.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Company.cs",
+              "DocumentMoniker": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\Company.cs",
+              "ToolTip": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Models\\Company.cs",
+              "RelativeToolTip": "Entities\\Models\\Company.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T08:47:17.963Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
