@@ -1,0 +1,17 @@
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Contracts\bin\Debug\net6.0\Contracts.deps.json
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Contracts\bin\Debug\net6.0\Contracts.dll
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Contracts\bin\Debug\net6.0\Contracts.pdb
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Contracts\bin\Debug\net6.0\Entities.dll
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Contracts\bin\Debug\net6.0\Entities.pdb
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Contracts\obj\Debug\net6.0\Contracts.csproj.AssemblyReference.cache
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Contracts\obj\Debug\net6.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Contracts\obj\Debug\net6.0\Contracts.AssemblyInfoInputs.cache
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Contracts\obj\Debug\net6.0\Contracts.AssemblyInfo.cs
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Contracts\obj\Debug\net6.0\Contracts.csproj.CoreCompileInputs.cache
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Contracts\obj\Debug\net6.0\Contracts.csproj.Up2Date
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Contracts\obj\Debug\net6.0\Contracts.dll
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Contracts\obj\Debug\net6.0\refint\Contracts.dll
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Contracts\obj\Debug\net6.0\Contracts.pdb
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Contracts\obj\Debug\net6.0\ref\Contracts.dll
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Contracts\bin\Debug\net6.0\Shared.dll
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Contracts\bin\Debug\net6.0\Shared.pdb

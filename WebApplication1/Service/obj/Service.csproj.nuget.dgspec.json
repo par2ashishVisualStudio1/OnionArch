@@ -1,0 +1,368 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service\\Service.csproj": {}
+  },
+  "projects": {
+    "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Contracts\\Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Contracts\\Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\rabq1a\\.nuget\\packages\\",
+        "outputPath": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rabq1a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://captain.rtf.siemens.net/artifactory/api/nuget/dcsplus-dev-nuget": {},
+          "https://captain.rtf.siemens.net/artifactory/api/nuget/simatic_pcs7-nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Entities.csproj"
+              },
+              "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\rabq1a\\.nuget\\packages\\",
+        "outputPath": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rabq1a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://captain.rtf.siemens.net/artifactory/api/nuget/dcsplus-dev-nuget": {},
+          "https://captain.rtf.siemens.net/artifactory/api/nuget/simatic_pcs7-nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service.Contracts\\Service.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service.Contracts\\Service.Contracts.csproj",
+        "projectName": "Service.Contracts",
+        "projectPath": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service.Contracts\\Service.Contracts.csproj",
+        "packagesPath": "C:\\Users\\rabq1a\\.nuget\\packages\\",
+        "outputPath": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rabq1a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://captain.rtf.siemens.net/artifactory/api/nuget/dcsplus-dev-nuget": {},
+          "https://captain.rtf.siemens.net/artifactory/api/nuget/simatic_pcs7-nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Entities\\Entities.csproj"
+              },
+              "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\rabq1a\\.nuget\\packages\\",
+        "outputPath": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rabq1a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://captain.rtf.siemens.net/artifactory/api/nuget/dcsplus-dev-nuget": {},
+          "https://captain.rtf.siemens.net/artifactory/api/nuget/simatic_pcs7-nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Contracts\\Contracts.csproj": {
+                "projectPath": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Contracts\\Contracts.csproj"
+              },
+              "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Service.Contracts\\Service.Contracts.csproj"
+              },
+              "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Shared\\Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\rabq1a\\.nuget\\packages\\",
+        "outputPath": "D:\\Ashish\\Practices\\RestAPI\\OnionArchitecture\\WebApplication1\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rabq1a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://captain.rtf.siemens.net/artifactory/api/nuget/dcsplus-dev-nuget": {},
+          "https://captain.rtf.siemens.net/artifactory/api/nuget/simatic_pcs7-nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

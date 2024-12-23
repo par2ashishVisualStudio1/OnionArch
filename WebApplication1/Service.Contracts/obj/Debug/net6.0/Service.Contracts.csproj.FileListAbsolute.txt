@@ -1,0 +1,17 @@
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Service.Contracts\bin\Debug\net6.0\Service.Contracts.deps.json
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Service.Contracts\bin\Debug\net6.0\Service.Contracts.dll
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Service.Contracts\bin\Debug\net6.0\Service.Contracts.pdb
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Service.Contracts\bin\Debug\net6.0\Entities.dll
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Service.Contracts\bin\Debug\net6.0\Entities.pdb
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Service.Contracts\obj\Debug\net6.0\Service.Contracts.csproj.AssemblyReference.cache
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Service.Contracts\obj\Debug\net6.0\Service.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Service.Contracts\obj\Debug\net6.0\Service.Contracts.AssemblyInfoInputs.cache
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Service.Contracts\obj\Debug\net6.0\Service.Contracts.AssemblyInfo.cs
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Service.Contracts\obj\Debug\net6.0\Service.Contracts.csproj.CoreCompileInputs.cache
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Service.Contracts\obj\Debug\net6.0\Service..DEC3DE55.Up2Date
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Service.Contracts\obj\Debug\net6.0\Service.Contracts.dll
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Service.Contracts\obj\Debug\net6.0\refint\Service.Contracts.dll
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Service.Contracts\obj\Debug\net6.0\Service.Contracts.pdb
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Service.Contracts\obj\Debug\net6.0\ref\Service.Contracts.dll
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Service.Contracts\bin\Debug\net6.0\Shared.dll
+D:\Ashish\Practices\RestAPI\OnionArchitecture\WebApplication1\Service.Contracts\bin\Debug\net6.0\Shared.pdb
